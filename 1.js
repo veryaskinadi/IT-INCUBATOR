@@ -40,3 +40,12 @@ function expressionMatter(a, b, c) {
       }
     }
 }
+
+function periodIsLate(last, today, cycleLength)
+{
+  return (today-last)/86400000>cycleLength
+}
+
+function integrate(c, e) {
+    return `${c / (e + 1)}x^${e + 1}`
+  }
