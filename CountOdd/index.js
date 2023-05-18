@@ -13,5 +13,5 @@ console.log(oddCount(-7));
 
 
 function oddCount(n) {
-    return Math.floor(n/2);
+    return Math.floor(n/2); 
 }
